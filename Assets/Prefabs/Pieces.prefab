@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4153385628796262808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4153385628796262809}
+  - component: {fileID: 4153385628796262822}
+  - component: {fileID: 3582804887357347727}
+  - component: {fileID: -8466182044287130094}
+  m_Layer: 0
+  m_Name: Pieces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4153385628796262809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153385628796262808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.98, y: -1.62, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4153385628796262822
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153385628796262808}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 4e6e1152afbcf214abc98c4766cb99d5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.64, y: 0.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3582804887357347727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153385628796262808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fffd025581ac0a4ca73d7ad6adc1a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  movePlate: {fileID: 3502875545241969763, guid: 7d570938b3efa884c80c0af38aa6fa95, type: 3}
+  attackPlate: {fileID: 3502875545241969763, guid: 6acfdd5ab25506544bf017b6e6d0b288, type: 3}
+  replacerPlate: {fileID: 3502875545241969763, guid: a089da86b2414884d83a2885d285cee5, type: 3}
+  deadPlate: {fileID: 3502875545241969763, guid: 6cb145d094d7f0e49bf5163536ad00fe, type: 3}
+  chaosPlate: {fileID: 3502875545241969763, guid: de0dfcfc8329ec74ca927bc6314954fc, type: 3}
+  wallPlate: {fileID: 3502875545241969763, guid: 7db9cf8b3bd6a5240931dae4eb68b512, type: 3}
+  player: 
+  isMove: 0
+  isAttack: 0
+  isAbility: 0
+  isShield: 0
+  isReplacer: 0
+  bombShield_Blue: {fileID: 21300000, guid: 441c0de7b0a842b44b6cdd9c7f2abaea, type: 3}
+  bomb_Blue: {fileID: 21300000, guid: 4e6e1152afbcf214abc98c4766cb99d5, type: 3}
+  replacer_Blue: {fileID: 21300000, guid: 030dafdb3eab19d4fb6bd0aff9e2825a, type: 3}
+  overload_Blue: {fileID: 21300000, guid: 282a9995e7df5f147a283f6021120c60, type: 3}
+  hatOfTheDeads_Blue: {fileID: 21300000, guid: ff08c7c19d7aa8d4b9bb4482bf8a9e64, type: 3}
+  wallBreaker_Blue: {fileID: 21300000, guid: 3271aa7386c09b841b63ba6bf5a0a9e0, type: 3}
+  cannon_Blue: {fileID: 21300000, guid: dfc586b0abf13584489220b23b623a7b, type: 3}
+  changeMaker_Blue: {fileID: 21300000, guid: 9b8aec29bbe099542bbf58e2d317ea53, type: 3}
+  chaos_Blue: {fileID: 21300000, guid: e4c03568010ec504e924670f404aa232, type: 3}
+  hat_Blue: {fileID: 21300000, guid: 7e7a2e3241babc144a0b08334bca4ede, type: 3}
+  wall_Blue: {fileID: 21300000, guid: 16501f3467aaa51439f2088f64ecdfdc, type: 3}
+  bombShield_Yellow: {fileID: 21300000, guid: aafc3d7ecb8f17d48811b6dbbe4205dd, type: 3}
+  bomb_Yellow: {fileID: 21300000, guid: 0f96a827e81830d41a9281d67e34c98c, type: 3}
+  replacer_Yellow: {fileID: 21300000, guid: b1f99c09d16c3fe498845bd3fdb57279, type: 3}
+  overload_Yellow: {fileID: 21300000, guid: 1bcd27124b0d35c4f97206a49eef6026, type: 3}
+  hatOfTheDeads_Yellow: {fileID: 21300000, guid: 61000c441e4d23443bb077a236a87d8e, type: 3}
+  wallBreaker_Yellow: {fileID: 21300000, guid: ce85be3092b3dbf49a580a61b6a109af, type: 3}
+  cannon_Yellow: {fileID: 21300000, guid: 42421110e86417e4dac648012b33bf36, type: 3}
+  changeMaker_Yellow: {fileID: 21300000, guid: 25c078b56c5a83d46adb0bbab4509ab1, type: 3}
+  hat_Yellow: {fileID: 21300000, guid: 71f3a824b50b31d428b9cefba1546d46, type: 3}
+  chaos_Yellow: {fileID: 21300000, guid: 506259e007c039346b853ce2a827d39c, type: 3}
+  wall_Yellow: {fileID: 21300000, guid: 83ba4656ae2d9104e862cf7023e80bd3, type: 3}
+--- !u!61 &-8466182044287130094
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153385628796262808}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.64}
+  m_EdgeRadius: 0
